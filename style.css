@@ -636,10 +636,24 @@ button:focus-visible {
   cursor: pointer;
 }
 
+/* Make cart responsive on mobile */
 @media (max-width: 600px) {
   .cart-panel {
     right: 0;
     width: 320px;
+  }
+
+  .cart-panel-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .cart-panel-header h2 {
+    font-size: 18px;
+  }
+
+  #closeCartBtn {
+    align-self: flex-end;
   }
 }
 
