@@ -478,6 +478,7 @@ track.addEventListener("click", (event) => {
 // Product card click interactions
 // - Add to cart button clicks
 // - Wishlist button clicks
+// - Toast notification shown on cart actions
 
 const wishlist = new Set();
 
