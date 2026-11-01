@@ -288,6 +288,7 @@ let isHovered = false;
 const progressBar = document.getElementById("progressBar");
 const progressTrack = document.querySelector(".progress-track");
 
+/** Autoplay interval in milliseconds (3 seconds) */
 const autoplayDuration = 3000;
 
 function stopProgressBar() {
